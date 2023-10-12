@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 export const connectDB = async () =>{
     try {
-        const url = 'mongodb+srv://adolphovt12:r4PW3cgczfarixQb@cluster0.w5bkkcg.mongodb.net/?retryWrites=true&w=majority'
+        const url = 'mongodb+srv://adolphovt12:productos.2023@cluster0.w5bkkcg.mongodb.net/?retryWrites=true&w=majority'
         await mongoose.connect(url);
         //await mongoose.connect('mongodb://127.0.0.1/sistema');
         console.log('Base de datos conectada')
